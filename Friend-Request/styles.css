@@ -14,9 +14,27 @@ body{
     align-items: center;
 }
 
-#card{
+#profile{
     background-color: bisque;
     height: 60vh;
     width: 20vw;
     border-radius: 5%;
+}
+
+#cover-photo{
+    height: 30%;
+    width: 80%;
+    margin: 10% 10%;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+#edit-button{
+    height: 2.5vh;
+    width: 2.5vh;
+    position: relative;
+    left: 82%;
+    bottom: 36.5%;
+    cursor: pointer; 
+    border-radius: 50%;
 }

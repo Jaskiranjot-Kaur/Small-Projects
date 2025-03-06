@@ -7,13 +7,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Check your Regional Time</h1>
-    <div class="clock">
-        <div class="clock-face">
-            <div class="hour hand"></div>
-            <div class="minute hand"></div>
-            <div class="second hand"></div>
+    <h1>Check Your Regional Time</h1>
+    <div class="page">
+    <div class="left">
+        <div class="container">
+            <h3>Select Location</h3>
+            <select name="Country" id="Country">
+                <option value="" selected>Select Country</option>
+            </select>
+            <select name="State" id="State">
+                <option value="" selected>Select State</option>
+            </select>
+            <select name="City" id="City">
+                <option value="" selected>Select City</option>
+            </select>
         </div>
+    </div>
+    <div class="right">
+        <div class="clock">
+            <div class="clock-face">
+                <div class="hour hand"></div>
+                <div class="minute hand"></div>
+                <div class="second hand"></div>
+            </div>
+        </div>
+    </div>
     </div>
 </body>
 </html>
